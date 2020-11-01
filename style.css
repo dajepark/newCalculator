@@ -1,0 +1,96 @@
+.calcFrame {
+    width:700px;
+    height:500px;
+    background-color:black;
+    margin-left:290px;
+    margin-top:150px;
+    border-radius:10px;
+    background-color:#293052;
+    border: solid 2px black;
+    box-shadow: 6px 6px 5px 1px black;
+}
+
+.screen {
+    width:635px;
+    height:100px;
+    background-color:#8e8f98;
+    margin-left:25px;
+    margin-top:20px;
+    border-radius:5px;
+    border: solid 1px black;
+    box-shadow: 0px 0px 5px black;
+    font-size:60px;
+    line-height:100px;
+    padding-right:15px;
+    text-align:right;
+}
+
+.keypad {
+    width:400px;
+    height:325px;
+    background-color:#293052;
+    margin-left: 25px;
+    margin-top: 20px;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:5px;
+    float:left;
+}
+
+.keys {
+    width:90%;
+    height:80%;
+    background-color:#8e8f98;
+    border-radius:5px;
+    border: solid 1px black;
+    box-shadow: 0px 0px 3px;
+    text-align:center;
+    line-height:82px;
+    font-family: 'Roboto', sans-serif;
+    font-size:30px;
+}
+
+.keys:hover {
+    pointer-events: none;
+}
+
+.operatorContainer {
+    width: 250px;
+    height:244px;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:22px;
+    column-gap:5px;
+    border-radius:5px;
+    margin-top:20px;
+    float:right;
+}
+
+.operator, .calculate {
+    width:80%;
+    height:100%;
+    background-color:#8e8f98;
+    border-radius:5px;
+    border:solid 1px black;
+    box-shadow: 0px 0px 3px;
+    font-family: 'Roboto', sans-serif;
+    font-size:30px;
+    text-align:center;
+    line-height:60px;
+}
+
+.signature {
+    font-family: 'League Script', cursive;
+    font-size:50px;
+    float:right;
+    position:relative;
+    left:-30px;
+    top:-40px;
+    color:white;
+}
+
+.transition {
+    transform:scale(0.98);
+    transition-duration:100ms;
+}
+
